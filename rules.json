@@ -77,7 +77,7 @@
             "type": "redirect",
             "redirect": {
                 "transform": {
-                    "scheme": "https"
+                    "host": "web3.carlingfor-h.schools.nsw.edu.au"
                 }
             }
         },

@@ -1,9 +1,9 @@
 {
     "manifest_version": 3,
     "name": "Moodle Fixer",
-    "version": "0.0.1.0",
+    "version": "0.0.1.2",
     "author": "abuco",
-    "description": "Force HTTP when accessing CHS moodle",
+    "description": "Force HTTP when accessing CHS moodle + minor patches",
     "icons": {},
     "homepage_url": "http://web3.carlingfor-h.schools.nsw.edu.au/applications/moodle2/",
     "permissions": [
