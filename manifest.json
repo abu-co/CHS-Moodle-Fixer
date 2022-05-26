@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Moodle Fixer",
+    "version": "0.0.1.0",
+    "author": "abuco",
+    "description": "Force HTTP when accessing CHS moodle",
+    "icons": {},
+    "homepage_url": "http://web3.carlingfor-h.schools.nsw.edu.au/applications/moodle2/",
+    "permissions": [
+        "declarativeNetRequest",
+        "declarativeNetRequestFeedback"
+    ],
+    "host_permissions": [
+        "*://web3.carlingfor-h.schools.nsw.edu.au/*",
+        "http://web1.carlingfor-h.schools.nsw.edu.au/applications/moodle2/*"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_main",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    }
+}

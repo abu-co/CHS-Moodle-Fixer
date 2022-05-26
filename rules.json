@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "transform": {
+                    "scheme": "http"
+                }
+            }
+        },
+        "condition": {
+            "urlFilter": "https://web3.carlingfor-h.schools.nsw.edu.au/applications/moodle2/*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket",
+                "other"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "priority": 2,
+        "action": {
+            "type": "modifyHeaders",
+            "responseHeaders": [
+                {
+                    "header": "Access-Control-Allow-Origin",
+                    "value": "*",
+                    "operation": "set"
+                },
+                {
+                    "header": "Access-Control-Allow-Methods",
+                    "value": "GET, PUT, POST, DELETE, HEAD, OPTIONS, PATCH, PROPFIND, PROPPATCH, MKCOL, COPY, MOVE, LOCK",
+                    "operation": "set"
+                },
+                {
+                    "header": "Access-Control-Allow-Credentials",
+                    "value": "true",
+                    "operation": "set"
+                },
+                {
+                    "header": "Access-Control-Allow-Headers",
+                    "value": "*",
+                    "operation": "set"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "ftp://web3.carlingfor-h.schools.nsw.edu.au/applications/moodle2/lib/ajax/*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "xmlhttprequest",
+                "websocket",
+                "other"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "transform": {
+                    "scheme": "https"
+                }
+            }
+        },
+        "condition": {
+            "urlFilter": "http://web1.carlingfor-h.schools.nsw.edu.au/applications/moodle2/*",
+            "resourceTypes": [
+                "main_frame",
+                "image",
+                "sub_frame",
+                "script",
+                "media",
+                "object",
+                "font",
+                "xmlhttprequest",
+                "other"
+            ],
+            "domains": [
+                "web3.carlingfor-h.schools.nsw.edu.au"
+            ]
+        }
+    }
+]
