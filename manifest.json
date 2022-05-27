@@ -5,7 +5,7 @@
     "author": "abuco",
     "description": "Force HTTP when accessing CHS moodle + minor patches",
     "icons": {},
-    "homepage_url": "http://web3.carlingfor-h.schools.nsw.edu.au/applications/moodle2/",
+    "homepage_url": "https://github.com/abu-co/CHS-Moodle-Fixer",
     "permissions": [
         "declarativeNetRequest",
         "declarativeNetRequestFeedback"
