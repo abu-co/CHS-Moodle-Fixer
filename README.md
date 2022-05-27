@@ -1,9 +1,10 @@
-# CHS-Moodle-Fixer
+# CHS Moodle Fixer
 *Imagine having to fix the school's Moodle yourself.*
 
 Due to a recent migration of the school's intranet, heaps of stuff broke.
 
-One of the most significant problems is that the school's Moodle is quite broken.  
+One of the most significant problems is that the school's 
+[Moodle](http://web3.carlingfor-h.schools.nsw.edu.au/applications/moodle2/) is quite broken.  
 Possibly due to some misconfiguration, one could barely access it at home.
 
 As a feeble attempt to recover some of Moodle's features,  
