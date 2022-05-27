@@ -31,9 +31,9 @@ once in a while and manually update the extension
 (i.e. delete the old extension and add the new one) 
 if a newer release is published.
 
-## TIPS 
+## Tips
 
-- The easiest way to install is to download this repository as a ZIP file and unzip the content into a folder,  
+- The easiest way to install this is to download this repository as a ZIP file and unzip the content into a folder,  
 then load the folder as an unpacked extension.
   - *A repository can be downloaded by clicking on* `<> Code` *and selecting the* `Download ZIP` *option in the menu.*
 - After installing the extension, you may (or may not) have to restart the browser or even the computer for it to take effect.  
