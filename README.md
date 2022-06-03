@@ -1,4 +1,11 @@
 # CHS Moodle Fixer
+
+[![GitHub stars](https://img.shields.io/github/stars/abu-co/CHS-Moodle-Fixer)](https://github.com/abu-co/CHS-Moodle-Fixer/stargazers)
+[![Code Amount](https://img.shields.io/badge/js%20code%20amount-0-yellowgreen)](#)
+[![GitHub repo size](https://img.shields.io/github/repo-size/abu-co/CHS-Moodle-Fixer)](#)
+[![GitHub license](https://img.shields.io/github/license/abu-co/CHS-Moodle-Fixer)](LICENSE)  
+[![GitHub manifest.json dynamic](https://img.shields.io/github/manifest-json/permissions/abu-co/CHS-Moodle-Fixer)](manifest.json)
+
 *Imagine having to fix the school's Moodle yourself.*
 
 Due to a recent migration of the school's intranet, heaps of stuff broke.
