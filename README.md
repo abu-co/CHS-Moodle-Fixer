@@ -8,6 +8,11 @@
 
 *Imagine having to fix the school's Moodle yourself.*
 
+> **Warning**  
+> They took down Moodle right before our 2022 HSC Trial exams, so this is now useless.  
+> To access the files I have managed to save from Moodle, please visit 
+> [abu-co/CHS-Moodle-Archive](https://github.com/abu-co/CHS-Moodle-Archive).
+
 Due to a recent migration of the school's intranet, heaps of stuff broke.
 
 One of the most significant problems is that the school's 
@@ -23,7 +28,8 @@ this chromium extension makes necessary changes to the browser, including:
 
 Let's just hope somebody actually fixes Moodle before we all graduate.
 
-> **NOTE**: Moodle is mostly working when you are connected to the school's Wi-Fi. 
+> **Note**  
+> Moodle is mostly working when you are connected to the school's Wi-Fi. 
 Therefore, this extension is not needed if you only access it at school. 
 
 ## Installation
